@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) website that will be used for my upcoming LMS on [rajscape.com](https://rajscape.com)
 
 ## Getting Started
 
-First, run the development server:
+Clone, install and verify dependencies.
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -14,11 +16,13 @@ pnpm dev
 bun dev
 ```
 
+Acquire or generate new environment variables
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses **Prisma** as ORM, **T3** as `.env` validation, **Neon** as backend, and **better-auth** as authentication. 
 
 ## Learn More
 
@@ -31,6 +35,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This app will most likely be deployed on Vercel, with domain [lms.rajscape.com](https://lms.rajscape.com)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
