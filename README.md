@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) website that will be used for mu upcoming LMS on [rajscape.com](https://rajscape.com)
+This is a [Next.js](https://nextjs.org) website that will be used for my upcoming LMS on [rajscape.com](https://rajscape.com)
 
 ## Getting Started
 
